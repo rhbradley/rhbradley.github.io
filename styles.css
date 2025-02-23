@@ -1,0 +1,149 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container for consistent width */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    background-color: #34495e;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.section p {
+    max-width: 700px;
+    margin: 0 auto 1rem;
+}
+
+/* Experience */
+.experience-item {
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.experience-item h3 {
+    color: #34495e;
+    margin-bottom: 0.5rem;
+}
+
+.experience-item p em {
+    color: #7f8c8d;
+}
+
+/* Skills */
+.skills-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills-list li {
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+/* Contact */
+#contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header .logo {
+        font-size: 1.5rem;
+    }
+    nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+    .section {
+        padding: 2rem 0;
+    }
+    .section h2 {
+        font-size: 1.5rem;
+    }
+    .experience-item {
+        padding: 1rem;
+    }
+    .skills-list li {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
